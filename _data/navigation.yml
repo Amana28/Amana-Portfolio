@@ -2,6 +2,8 @@
   link: /projects
 - name: Blog
   link: /blog
+- name: Photography
+  link: /photography
 
 # If you remove your about page, remember to remove the lines below
 - name: About
