@@ -5,14 +5,13 @@
 
   <body>
 
+    <!-- only for keyboard users -->
+		<a class="skip-to-content" href="#main-content">Skip to content</a>
+
     {%- include site/header.html -%}
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
-
+    {{ content }}
+    
     {%- include site/footer.html -%}
 
   </body>

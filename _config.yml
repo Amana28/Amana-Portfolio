@@ -18,9 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Amanuel Tesfaye
+title: Amanuel Tesfaye Portfolio
 email: attesfaye24@amherst.edu
-description: >- # this means to ignore newlines until "baseurl:"
+intro: >- # this means to ignore newlines until "baseurl:"
+  Please explore my story and some of the things I am interested in life. 
+  Here you can find my computer science projects, Blogs and some of my photography work.
+  Just fasten your seatbelts, sit back, and enjoy the ride. :)
+description: >- 
   Here, you'll find a curated collection of my creative work and accomplishments. 
   Explore my projects, photography work, and get a glimpse of my professional 
   journey! I invite you to discover my passion for problem solving and photography
