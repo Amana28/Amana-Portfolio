@@ -1,5 +1,4 @@
 // My own css
-
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500;800;900&display=swap');
 
 
@@ -375,10 +374,11 @@ small {
 .hero-btn-container {
 	margin-block-start: 5rem;
 	display: flex;
+	gap: 20px; 
 	/* align-items: center; */
 }
 
-.resume-btn {
+.cool-btn {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	display: inline-block;
@@ -391,7 +391,7 @@ small {
 	overflow: hidden;
 }
 
-.hire-btn::before {
+.cool-btn::before {
 	content: '';
 	z-index: -1;
 	position: absolute;
@@ -406,13 +406,13 @@ small {
 	transition: transform 0.45s ease-in-out;
 }
 
-.hire-btn:hover {
+.cool-btn:hover {
 	cursor: pointer;
 	color: hsl(0, 0%, 9%);
 	border: 0;
 }
 
-.hire-btn:hover::before {
+.cool-btn:hover::before {
 	transform: translate3d(50%, -50%, 0) scale3d(15, 15, 15);
 }
 
@@ -640,6 +640,13 @@ small {
 .other-projects p {
 	font-size: clamp(1.15rem, 1vw, 1.3rem);
 }
+
+
+/*******************
+	POSTS SECTION
+*************************/
+
+
 
 /*******************
 		CONTACT SECTION
